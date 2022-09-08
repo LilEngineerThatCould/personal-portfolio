@@ -1,10 +1,10 @@
 import React from 'react';
-import MenuIcon from '../icons/menuIcon';
+import MenuIcon from '../../Icons/MenuIcon';
 
 class Header extends React.Component {
     render() {
         return (
-            <header>
+            <header className=''>
                 <MenuIcon height="20px" width="20px"/>
                 <p>Personal Portfolio Header</p>
             </header>

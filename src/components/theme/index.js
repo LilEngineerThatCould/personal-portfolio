@@ -1,7 +1,7 @@
 import React from 'react';
-import Navigation from './navigation'
+import Navigation from './Navigation'
 import styles from './Theme.module.css';
-import Header from './header'
+import Header from './Header'
 
 const { themeContainer } = { ...styles }
 
