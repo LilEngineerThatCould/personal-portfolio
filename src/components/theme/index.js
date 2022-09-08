@@ -1,15 +1,17 @@
 import React from 'react';
-import SideNav from './navigation/SideNav'
+import Navigation from './navigation'
 import styles from './Theme.module.css';
+import Header from './header'
 
 const { themeContainer } = { ...styles }
+
 class Theme extends React.Component {
 
     render() {
         return (
             <div className={themeContainer}>
-                <h2>{this.props.header}</h2>
-                <SideNav />
+                <Header />
+                <Navigation />
             </div>
         )
     }

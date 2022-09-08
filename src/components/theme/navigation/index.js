@@ -1,14 +1,17 @@
 import React from 'react';
 import Link from 'next/link'
-import styles from './SideNav.module.css'
+import styles from './Navigation.module.css'
 
 const { nav, li, ul, a } = { ...styles }
 
-class SideNav extends React.Component {
+class Navigation extends React.Component {
     render() {
         return (
             <nav className={nav}>
                 <ul className={ul}>
+                    <li className={li}>
+                        <Link href="/"><a className={a}>Home</a></Link>
+                    </li>
                     <li className={li}>
                         <Link href="/projects"><a className={a}>Projects</a></Link>
                     </li>
@@ -24,4 +27,4 @@ class SideNav extends React.Component {
     }
 }
 
-export default SideNav;
+export default Navigation;
