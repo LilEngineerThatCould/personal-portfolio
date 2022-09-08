@@ -5,7 +5,8 @@ class MenuIcon extends React.Component {
     render() {
         return (
             <svg
-                className="w-6 h-6"
+                height={this.props.height}
+                width={this.props.width}
                 fill="none"
                 stroke="currentColor"
                 viewBox="0 0 24 24"
